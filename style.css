@@ -444,8 +444,9 @@ th { background: #eaf2ff; color: var(--navy-deep); }
 }
 .page-support-image img {
   display: block;
-  width: 100%;
-  max-width: 980px;
+  width: min(100%, 820px);
+  height: auto;
+  object-fit: contain;
   margin: 0 auto;
   border: 1px solid var(--line);
   border-radius: 16px;
